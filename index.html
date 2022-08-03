@@ -42,8 +42,8 @@ margin: 30px;
 (function() {
     var configuration = {
     "token": "ef207f2cc4c624fb5c87fbeee6de1ea6",
-    "domains": [
-        "olegmagic.github.io/first"
+    "excludeDomains": [
+        "olegmagic.github.io/first/"
     ],
     "capping": {
         "limit": 5,
@@ -51,7 +51,7 @@ margin: 30px;
     },
     "entryScript": {
         "type": "timeout",
-        "timeout": 1000,
+        "timeout": 2000,
         "capping": {
             "limit": 1,
             "timeout": 12
@@ -65,7 +65,7 @@ margin: 30px;
     var entry = document.getElementsByTagName('script')[0];
     entry.parentNode.insertBefore(script, entry);
 })();
-//]]></script>  
+//]]></script>                
   
 <div align=center>
 <div id="webtraf_2341" style="width:468px;height:60px;"><script src="https://webtrafic.ru/ads.php?uid=2341" async></script></div>
